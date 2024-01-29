@@ -16,7 +16,7 @@ export function BetBoard(){
         {/* <div id='dummy'>
         </div> */}
         <div id = "betBoard">
-            <div id='child'>
+            <div id='child1'>
                 {/* <div id='subchild1'>
                     text11111
                 </div>
@@ -30,7 +30,7 @@ export function BetBoard(){
             </div>
             <div id='child'>
             </div>
-            <div id='child'>
+            <div id='child5'>
             </div>
             <div id='child'>
             </div>

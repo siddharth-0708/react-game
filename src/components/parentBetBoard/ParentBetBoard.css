@@ -7,7 +7,24 @@
     grid-template-areas: "bb bb bb"
                          "ba ch un";
     grid-row-gap: 10px;
-    grid-column-gap: 10px;                     
+    grid-column-gap: 10px;
+    transform-origin: center bottom; 
+    /* display: none; */
+  }
+  @media only screen and (orientation: landscape) {
+
+    #parentBetBoard{
+      width: 50%;
+      display: grid;
+      /* grid-template-columns: 1fr 1fr 1fr; */
+      grid-template-columns: 1fr auto 1fr;
+      grid-template-rows: auto auto auto;
+      grid-template-areas: "bb bb bb"
+                           "ba ch un";
+      grid-row-gap: 10px;
+      grid-column-gap: 10px; 
+      /* display: none; */
+    }
   }
   #betBoardParent{
     width: 100%;

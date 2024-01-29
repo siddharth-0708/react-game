@@ -1,0 +1,12 @@
+#HorizontalNumbersParent{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    /* position: sticky;
+    top: 0px; */
+}
+#elements{
+    flex: 1;
+    /* aspect-ratio: 1; */
+}

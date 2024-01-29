@@ -13,6 +13,21 @@
     display: grid;
     grid-template-rows: auto 1fr;
 }
+
+@media only screen and (orientation: landscape){
+    #videoContainer{
+        border: 2px solid blue;
+        box-sizing: border-box;
+        width: 50%;
+        right: 0px;
+        height: calc(100% - 40px);
+        position: absolute;
+        top: 70px;
+        /* overflow: hidden; */
+        display: grid;
+        grid-template-rows: auto 1fr;
+    }
+}
 #videoElement{
     width: 100%;
     /* height: auto; */

@@ -1,0 +1,78 @@
+#statsParent{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+}
+#numbersAndGridParent{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: "empty horz"
+                         "vert gridNum";
+    grid-area: numGrid;
+    height: 200px;
+    overflow: scroll;                     
+}
+#HorizontalNumbers{
+    grid-area: horz;
+    background-color: #2c2828;
+    color: white;
+    position: sticky;
+    top: 0px;
+    /* transform-origin: right bottom; */
+    /* transform: scale(1.5); */
+}
+#VerticalNumbers{
+    grid-area: vert;
+    background-color: #2c2828;
+    color: white;
+    /* transform-origin: right top;
+    transform: scale(1.5); */
+}
+#StatsGrid{
+    grid-area: gridNum;
+    /* transform-origin: left top;
+    transform: scale(1.5); */
+}
+#textWithNumbersParent{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: "empty deal"
+                         "play numGrid";
+
+}
+#dealers{
+    width: 100%;
+    grid-area: deal;
+    display: flex;
+    justify-content: center;
+    background-color: #2c2828;
+    color: white;
+}
+#players{
+    position: relative;
+    grid-area: play;
+    background-color: #2c2828;
+    color: white;
+}
+#playerRotate{
+    position: absolute;
+    writing-mode: vertical-lr;
+    scale: -1;;
+    top: 70px;
+}
+#empty{
+    grid-area: empty;
+    background-color: #2c2828;
+}
+#empty1{
+    position: sticky;
+    top: 0px;
+    grid-area: empty;
+    background-color: #2c2828;
+}

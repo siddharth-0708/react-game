@@ -1,0 +1,10 @@
+#VerticalNumbersParent{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+#elements{
+    flex: 1;
+    /* aspect-ratio: 1; */
+}

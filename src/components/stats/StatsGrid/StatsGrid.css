@@ -1,0 +1,19 @@
+#StatsGridParent{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr)
+}
+#elements{
+    width: 100%;
+    text-align: center;
+    /* aspect-ratio: 1; */
+}
+.H{
+    background-color: green;
+}
+.Dh{
+    background-color: orange;
+}
+.S{
+    background-color: red;
+}
