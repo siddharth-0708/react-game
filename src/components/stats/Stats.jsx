@@ -19,16 +19,16 @@ export function Stats(){
                         </div>
                 </div>
                 <div id='numbersAndGridParent'>
-                <div id='empty1'></div>    
+                <div id='StatsGrid'>
+                    <StatsGrid></StatsGrid>
+                </div>
                 <div id='HorizontalNumbers'>
                     <HorizontalNumbers></HorizontalNumbers>
                 </div>
                 <div id='VerticalNumbers'>
                     <VerticalNumbers></VerticalNumbers>
                 </div>
-                <div id='StatsGrid'>
-                    <StatsGrid></StatsGrid>
-                </div>
+                <div id='empty1'></div>    
                 </div>
             </div>
         </div>

@@ -6,14 +6,26 @@
 #elements{
     width: 100%;
     text-align: center;
+    border: none !important; 
+
     /* aspect-ratio: 1; */
 }
 .H{
     background-color: green;
+    border: none !important; 
+    position: relative;
+    top: 3px;
+
 }
 .Dh{
     background-color: orange;
+    border: none !important; 
+    position: relative;
+    top: 3px;
 }
 .S{
     background-color: red;
+    border: none !important; 
+    position: relative;
+    top: 3px;
 }
